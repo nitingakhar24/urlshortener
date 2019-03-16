@@ -9,7 +9,7 @@ import org.springframework.stereotype.Service;
 
 import com.neueda.urlshortener.exception.URLShortnerException;
 import com.neueda.urlshortener.repository.URLShortnerRepository;
-import com.neueda.urlshortner.util.IDMapper;
+import com.neueda.urlshortener.util.IDMapper;
 
 @Service
 public class URLShortnerServiceImpl implements URLShortnerService 

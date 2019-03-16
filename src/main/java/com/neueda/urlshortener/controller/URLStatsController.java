@@ -5,7 +5,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.neueda.urlshortner.service.URLStatService;
+import com.neueda.urlshortener.service.URLStatService;
 
 @RestController
 @RequestMapping("/shortener/stats/")

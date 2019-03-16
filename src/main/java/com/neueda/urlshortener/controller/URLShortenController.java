@@ -14,11 +14,11 @@ import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.servlet.view.RedirectView;
 
-import com.neueda.urlshortner.exception.URLShortnerException;
-import com.neueda.urlshortner.request.URLShortenRequest;
-import com.neueda.urlshortner.service.URLShortnerService;
-import com.neueda.urlshortner.service.URLStatService;
-import com.neueda.urlshortner.util.URLValidator;
+import com.neueda.urlshortener.exception.URLShortnerException;
+import com.neueda.urlshortener.request.URLShortenRequest;
+import com.neueda.urlshortener.service.URLShortnerService;
+import com.neueda.urlshortener.service.URLStatService;
+import com.neueda.urlshortener.util.URLValidator;
 
 @RestController
 @RequestMapping("/shortener")
