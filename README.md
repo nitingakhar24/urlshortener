@@ -34,3 +34,28 @@ NA
 http://localhost:8080//shortener/stats/b
 
 ![](images/fetchURLStatInfo.PNG)
+
+# Softwares Used and it's purpose
+Redis 2.4.6 as field value NOSQL server
+STS 3.9.7 (Spring Tool Suit) for Spring Boot Application development
+PostMan for testing REST API endpoints
+Maven
+NOTE : This is application is built using Docker version 18.06.3-ce, build d7080c1
+Docker Image file defined in the application's root directory by the name "Dockerfile"
+
+# Steps to Dockerize this applicaion :-
+1) Do a git clone
+git clone https://github.com/nitingakhar24/urlshortener.git
+
+2) Package the application in the form of jar with the following command
+mvn clean package
+
+3) Build the docker image by running the following command
+docker build -t urlshortener
+
+4) Run the docker Image, it is ready to be tested
+docker run -p 5000:8080 urlshortener
+
+
+
+
